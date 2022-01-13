@@ -1,8 +1,9 @@
-// const suma1 = function (a: number, b: number) {
-//  return a + b;
-// };
+/*const suma1 = function (a: number, b: number) {
+return a + b;
+};*/
+//queda pendiente
 
-const suma2 = (a: number, b: number) => (a + b);
+const suma2 = (a: number, b: number) => (a + b); //el => ya trae un return por default 
 
 type CBSuma = (x: number, y: number) => number;
 
