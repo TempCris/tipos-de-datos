@@ -18,7 +18,7 @@ export default function consulta() { //se exporta la funcion que se esta declara
   console.log('--------------OBJETOS-------------\n'); //se manda imprimir en consola un mensaje
   //con operador punto
   console.log('Operador punto: ', objeto.nombre); //se manda imprimir texto, se hace referencia al objeto declarado anteriormente y a una de sus propiedades la cual es "nombre" con el operador punto
-  //con destructuracion, ya solo se hace referencia al dato en particular que queremos extraer del obejeto y hacemos referencia a el mismo 
+  //con destructuracion, ya solo se hace referencia al propiedad en particular que queremos extraer del obejeto
   const { nombre } = objeto;
   console.log('Destructuracion: ', nombre);
   // con indireccion que es hacer referencia a la propiedad del objeto con []

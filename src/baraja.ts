@@ -2,15 +2,6 @@
 //tipo de dato 
 //objeto vacio
 
-interface baraja {
-    nombre: string 
-    codigo: string
-    atk: number
-    def: number
-    tipo: string
-    normal: boolean 
-}
-
 let carta: baraja = {
     nombre: 'baby dragon',
     codigo: 'JW-025',
@@ -29,7 +20,7 @@ let carta: baraja = {
     codigo: 'JW-048',
 }*/
 export default function llenadoCartas(){
-    const cartaNew = { ...carta, normal: true, nivel: '8' };
+    const cartaNew = { ...carta, nivel: '4' };
     console.log(cartaNew);
     
 }
