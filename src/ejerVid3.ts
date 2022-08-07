@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 /*
 Operador ternario
 (condicion) ? true:false
@@ -10,7 +11,8 @@ Operador ternario
     segunda sentencia)
 */
 
-let num = 4;
-
-(num % 2 == 0) ? console.log(`${num} es par`) : console.log(`${num} es impar`);
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function operation():any {
+  const num = 4;
+  (num % 2 === 0) ? console.log(`${num} es par`) : console.log(`${num} es impar`);
+}

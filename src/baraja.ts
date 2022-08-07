@@ -2,6 +2,7 @@
 //tipo de dato 
 //objeto vacio
 
+import {baraja } from "./index"
 let carta: baraja = {
     nombre: 'baby dragon',
     codigo: 'JW-025',
